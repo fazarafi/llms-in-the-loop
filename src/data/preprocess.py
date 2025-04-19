@@ -2,6 +2,9 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset, Subset
 from datasets import DatasetDict
+import os
+os.path.abspath('../../../')
+
 from src.data.sample import sample_for_model_selection
 
 
